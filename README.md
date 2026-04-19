@@ -8,7 +8,8 @@ Hawk Eye is a real-time drone detection and alert system.
 
 I will must say we people get tired but our ai never get it is 24/7 protecting and giving information.
 
-You point a camera at the sky, and Hawk Eye watches it for you. The moment it sees something airborne, it classifies it as either a drone or bird or anything suspicious looking like missiles or thus, if it is a drone, it immediately sends an SMS alert to the designated operator. The operator does not need to be watching a screen. Hawk Eye watches it for them and calls them when it sees drones, actually. *The inference pipeline can handle three types of input: a static image, a pre-recorded video, or a live camera stream. *
+You point a camera at the sky, and Hawk Eye watches it for you. The moment it sees something airborne, it classifies it as either a drone or bird or anything suspicious looking like missiles or thus, if it is a drone, it immediately sends an SMS alert to the designated operator. The operator does not need to be watching a screen. Hawk Eye watches it for them and calls them when it sees drones, actually. *The inference pipeline can handle three types of input: a static image, a pre-recorded video, or a live camera stream. *<img width="790" height="790" alt="graph_of_map" src="https://github.com/user-attachments/assets/7ab5b019-fa01-40e4-86c1-0ca4f2f8a27a" />
+
 
 Each frame runs through the model, which returns a bounding box and a confidence score. If the confidence crosses our threshold and the class is drone, the system triggers the SMS alert through Twilio. We designed the alert pipeline to run asynchronously, so it does not slow down the inference loop — detection and alerting happen in parallel, not in sequence. This makes Hawk Eye useful across a range of real environments.
 
