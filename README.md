@@ -1,11 +1,15 @@
-<img width="273" height="185" alt="drone_sample" src="https://github.com/user-attachments/assets/aaa97e32-15f4-4498-82c6-634a7a6ade83" />
+
+<img width="267" height="189" alt="hak" src="https://github.com/user-attachments/assets/6767707f-2e5a-49fa-be61-36a8cecdc551" />
+
+
 # HawkEye
 A ml model using yolov4 and darknet
 
 
 Hawk Eye is a real-time drone detection and alert system.
 
-<img width="267" height="189" alt="hak" src="https://github.com/user-attachments/assets/6767707f-2e5a-49fa-be61-36a8cecdc551" />
+<img width="273" height="185" alt="drone_sample" src="https://github.com/user-attachments/assets/aaa97e32-15f4-4498-82c6-634a7a6ade83" />
+
 
 
 I will must say we people get tired but our ai never get it is 24/7 protecting and giving information.
