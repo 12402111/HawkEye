@@ -1,6 +1,5 @@
 
 
-https://github.com/user-attachments/assets/59cd43f9-9b2a-4e43-9ba5-40502b32f553
 
 
 <img width="267" height="189" alt="hak" src="https://github.com/user-attachments/assets/6767707f-2e5a-49fa-be61-36a8cecdc551" />
@@ -13,6 +12,10 @@ A ml model using yolov4 and darknet
 Hawk Eye is a real-time drone detection and alert system.
 
 <img width="273" height="185" alt="drone_sample" src="https://github.com/user-attachments/assets/aaa97e32-15f4-4498-82c6-634a7a6ade83" />
+it works for static and dynamic 
+
+
+https://github.com/user-attachments/assets/59cd43f9-9b2a-4e43-9ba5-40502b32f553
 
 
 
